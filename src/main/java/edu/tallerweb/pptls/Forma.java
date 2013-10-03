@@ -1,5 +1,4 @@
 package edu.tallerweb.pptls;
-
 /**
  * Las diferentes Formas que existen en el juego
  */
@@ -12,6 +11,7 @@ public enum Forma {
 	private Forma(final Integer valor) {
 		this.valor = valor;
 	}
+
 
 	public Integer getValor() {
 		return this.valor;
